@@ -42,5 +42,56 @@
 			{"text": "The Seaborn are not a nation in the way surface-dwellers understand the word. They are the Many - a hive consciousness born in the lightless abyssal trenches, expressed through countless mutable bodies that share a single, patient will to survive and assimilate."},
 			{"text": "Where other peoples build walls against the sea, the Many simply become it. Their settlements cling to coastlines and river mouths, drawing strength, food, and new hosts from the water that surrounds them. Their oldest and most persistent enemy is Aegir, the advanced undersea technocracy that has hunted the Many for generations without ever finding its source."}
 		]
-	}
+	},
+	{
+  "name": "Rhodes Island",
+  "leaderName": "Amiya",
+  "startBias": ["Plains"],
+  "preferredVictoryType": "Diplomatic",
+  "uniqueName": "Pharmaceutical & Tactical Support",
+  "uniques": [
+    "All units heal [+10] HP when resting",
+    "[+25]% Great Person Generation in [Capital]",
+    "[+1] [Movement] for [All] units",
+    "[+1] Happiness from every [Hospital]"
+  ],
+  "innerColor": [0, 180, 180],
+  "outerColor": [20, 20, 20],
+  "startIntroPart1": "As a landship-based pharmaceutical company, Rhodes Island fights for the infected and Terra's future.",
+  "startIntroPart2": "Deploy your elite operators, treat the infected, and bring stability to a fractured world.",
+  "introduction": "Greetings. I am Amiya, Executive Officer of Rhodes Island. Let us walk this path together.",
+  "neutralHello": "Do you need medical assistance, or are you here to discuss a contract?",
+  "hateHello": "Our operators are watching your every move. State your business quickly.",
+  "declaringWar": "We fight only to protect, but if you threaten Terra's peace, we will stop you!",
+  "attacked": "Rhodes Island will not fall to aggression. Tactical units, prepare for defense!",
+  "defeated": "Doctor... I'm sorry. We couldn't save everyone... but the spark of hope remains.",
+  "declaringFriendship": "Together, we can build a better future for both the Infected and Non-Infected.",
+  "denounced": "Your actions are causing unnecessary suffering. Rhodes Island will not condone this.",
+  "neutralDenouncing": "We must publicly condemn your hostilies. The world deserves better.",
+  "hateDenouncing": "You are no better than Reunion's radicals. Stay away from our people.",
+  "tradeRequest": "We have surplus medical supplies. Would you care to make an exchange?",
+  "neutralRejectingDemand": "Our resources are allocated for humanitarian aid, not to appease threats.",
+  "hateRejectingDemand": "Rhodes Island does not bow to extortion.",
+  "cities": [
+    "Rhodes Island HQ",
+    "PRTS Mainframe",
+    "Landship Sector Alpha",
+    "Medical Wing",
+    "Tactical Operations Center",
+    "R&D Lab",
+    "Training Deck",
+    "Engineering Workshop",
+    "HR Office",
+    "Bridge Sector",
+    "Outpost Lungmen",
+    "Outpost Kazimierz",
+    "Outpost Victoria"
+  ],
+  "civilopediaText": [
+    {
+      "text": "Rhodes Island Pharmaceutical Inc. is a registered pharmaceutical company that secretly operates an elite tactical task force to solve the Infected crisis across Terra."
+    }
+  ]
+}
+
 ]
