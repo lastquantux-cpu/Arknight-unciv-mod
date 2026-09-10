@@ -9,11 +9,28 @@
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"uniqueTo": "Seaborn",
-		"upgradesTo": "Swordsman",
+		"upgradesTo": "Tidewrought Blade",
 		"promotions": ["Nervous Impairment I"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "A newly assimilated host, still half-human in shape but already listening to a voice from beneath the waves. It fights without fear, because it no longer has anything left to lose."}
+		]
+	},
+	{
+		"name": "Tidewrought Blade",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Metallurgy",
+		"replaces": "Swordsman",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Longswordsman",
+		"promotions": ["Nervous Impairment I"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Years of assimilation have shaped this host further - its weapon arm has fused with something that was never a sword to begin with, but cuts like one all the same."}
 		]
 	},
 	{
@@ -26,12 +43,29 @@
 		"obsoleteTech": "Astronomy",
 		"replaces": "Trireme",
 		"uniqueTo": "Seaborn",
-		"upgradesTo": "Caravel",
+		"upgradesTo": "Abyssal Caravel",
 		"promotions": ["Nervous Impairment I"],
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Not built so much as grown - a living hull of coral, chitin, and something that used to be a ship's crew, propelled by dozens of half-formed limbs beneath the waterline."}
+		]
+	},
+	{
+		"name": "Abyssal Caravel",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 15,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"obsoleteTech": "Navigation",
+		"replaces": "Caravel",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Frigate",
+		"promotions": ["Nervous Impairment I"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Grown larger and bolder now that it no longer needs to hide close to shore, this hull ranges across open ocean freely, dragging captured surface vessels down to add to its shape."}
 		]
 	},
 	{
@@ -44,12 +78,30 @@
 		"obsoleteTech": "Chivalry",
 		"replaces": "Horseman",
 		"uniqueTo": "Seaborn",
-		"upgradesTo": "Knight",
+		"upgradesTo": "Carapace Lancer",
 		"promotions": ["Nervous Impairment I"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "A hollow, discarded carapace reanimated and driven forward by something that no longer needs it to breathe. It skitters across open ground faster than anything with legs has a right to, striking hard before vanishing back toward the tideline."}
+		]
+	},
+	{
+		"name": "Carapace Lancer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 18,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Metallurgy",
+		"replaces": "Knight",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Cavalry",
+		"promotions": ["Nervous Impairment I"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A larger shell, ridden by nothing at all - the carapace itself has become the predator, charging on legs of bone and calcified muscle that were once something else's armor."}
 		]
 	}
 ]
