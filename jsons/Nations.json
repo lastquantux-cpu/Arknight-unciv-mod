@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Seaborn",
+		"leaderName": "Ishar-mla",
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"uniqueName": "The Many",
+		"uniqueText": "",
+		"uniques": [
+			"Enables embarkation for land units",
+			"Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+			"Normal vision when embarked",
+			"[+1] Sight <for [Embarked] units>",
+			"[+1] Movement <for [Embarked] units>",
+			"[+25]% [Food] <in coastal cities>",
+			"[+15]% [Production] <in coastal cities>",
+			"[+1 Happiness] from every [Harbor]"
+		],
+		"innerColor": [60, 200, 180],
+		"outerColor": [6, 18, 34],
+		"startIntroPart1": "From the lightless trench below, a Voice rises with the tide. It has worn a thousand faces and a thousand tongues, and tonight it wears yours.",
+		"startIntroPart2": "Terra's surface-dwellers call us monsters, terrorfish, the abyss made flesh. We call ourselves simply: the Many. In time, so will you.",
+		"introduction": "The water remembers you, small thing. It has always been listening.",
+		"neutralHello": "You stand on borrowed shore. We are patient - the tide always returns.",
+		"hateHello": "Your blood carries no salt of ours. That will change, one way or another.",
+		"declaringWar": "The tide turns against you now. Do not look for the shore.",
+		"attacked": "You have drawn a blade against the ocean itself. How curious - and how brief this will be.",
+		"defeated": "We do not end. We only recede, and wait for the next high tide.",
+		"declaringFriendship": "Even land and sea may share a shore, for a time.",
+		"denounced": "Words dry quickly in the sun. Ours do not need to.",
+		"neutralDenouncing": "They have made their hostility known. The current will remember it.",
+		"hateDenouncing": "We warned them. The deep does not forget an insult.",
+		"tradeRequest": "An offering, from the shallows to the deep. Consider it carefully.",
+		"neutralRejectingDemand": "The tide does not answer to threats from the shore.",
+		"hateRejectingDemand": "You mistake patience for weakness. That is unwise.",
+		"cities": [
+			"Aeswyrm", "Nethryn", "Saltmere", "Brinehold", "Coldfathom", "Duskabyss",
+			"Kelpwrath", "Hollowtide", "Farthom", "Deepmark", "Sirensink", "Driftgrave",
+			"Mournreef", "Hymnsunk", "Voidshoal", "Greytide", "Wrackshore", "Gloomcurrent",
+			"Bellowdeep", "Ashencoast", "Wailwater", "Sablefen", "Thornreef", "Palenight"
+		],
+		"civilopediaText": [
+			{"text": "The Seaborn are not a nation in the way surface-dwellers understand the word. They are the Many - a hive consciousness born in the lightless abyssal trenches, expressed through countless mutable bodies that share a single, patient will to survive and assimilate."},
+			{"text": "Where other peoples build walls against the sea, the Many simply become it. Their settlements cling to coastlines and river mouths, drawing strength, food, and new hosts from the water that surrounds them. Their oldest and most persistent enemy is Aegir, the advanced undersea technocracy that has hunted the Many for generations without ever finding its source."}
+		]
+	}
+]
