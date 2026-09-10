@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Broodling Wader",
+		"name": "Deep Sea Slider",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
@@ -9,32 +9,72 @@
 		"obsoleteTech": "Metal Casting",
 		"replaces": "Warrior",
 		"uniqueTo": "Seaborn",
-		"upgradesTo": "Tidewrought Blade",
+		"upgradesTo": "Nethersea Predator",
 		"promotions": ["Nervous Impairment I"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "A newly assimilated host, still half-human in shape but already listening to a voice from beneath the waves. It fights without fear, because it no longer has anything left to lose."}
+			{"text": "It moves low and fast along the tideline, more current than creature, closing the distance before its prey even registers the shape cutting through the shallows."}
 		]
 	},
 	{
-		"name": "Tidewrought Blade",
-		"unitType": "Sword",
+		"name": "Nourished Spitter",
+		"unitType": "Archery",
 		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"obsoleteTech": "Metallurgy",
-		"replaces": "Swordsman",
+		"strength": 5,
+		"rangedStrength": 7,
+		"range": 2,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"replaces": "Archer",
 		"uniqueTo": "Seaborn",
-		"upgradesTo": "Longswordsman",
+		"upgradesTo": "Nourished Piercer",
 		"promotions": ["Nervous Impairment I"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "arrow",
 		"civilopediaText": [
-			{"text": "Years of assimilation have shaped this host further - its weapon arm has fused with something that was never a sword to begin with, but cuts like one all the same."}
+			{"text": "Fed well on whatever the tide brings in, this host has grown organs that were never meant to exist, built for exactly one purpose: to spit something corrosive at range."}
 		]
 	},
 	{
-		"name": "Brood Hull",
+		"name": "Baleful Broodling",
+		"unitType": "Spear",
+		"movement": 2,
+		"strength": 9,
+		"cost": 45,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Steel",
+		"replaces": "Spearman",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Regressed Predator",
+		"promotions": ["Nervous Impairment I"],
+		"uniques": ["[+100]% Strength <vs [Mounted] units>"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Young, hungry, and already dangerous - it has learned that the fastest way to grow is to bring down anything that gallops too close to the water's edge."}
+		]
+	},
+	{
+		"name": "Ocean Stonecutter",
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 6,
+		"range": 1,
+		"cost": 40,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Civil Service",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Nourished Runner",
+		"promotions": ["Nervous Impairment I"],
+		"uniques": ["Rough terrain penalty"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A crude shell-plated frame, dragged along the shore by things that used to be beasts of burden, hurling barnacle-crusted shot at anything that stands between it and the water."}
+		]
+	},
+	{
+		"name": "Floating Sea Drifter",
 		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 10,
@@ -43,29 +83,12 @@
 		"obsoleteTech": "Astronomy",
 		"replaces": "Trireme",
 		"uniqueTo": "Seaborn",
-		"upgradesTo": "Abyssal Caravel",
+		"upgradesTo": "Nourished Drifter",
 		"promotions": ["Nervous Impairment I"],
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Not built so much as grown - a living hull of coral, chitin, and something that used to be a ship's crew, propelled by dozens of half-formed limbs beneath the waterline."}
-		]
-	},
-	{
-		"name": "Abyssal Caravel",
-		"unitType": "Melee Water",
-		"movement": 5,
-		"strength": 15,
-		"cost": 120,
-		"requiredTech": "Astronomy",
-		"obsoleteTech": "Navigation",
-		"replaces": "Caravel",
-		"uniqueTo": "Seaborn",
-		"upgradesTo": "Frigate",
-		"promotions": ["Nervous Impairment I"],
-		"attackSound": "nonmetalhit",
-		"civilopediaText": [
-			{"text": "Grown larger and bolder now that it no longer needs to hide close to shore, this hull ranges across open ocean freely, dragging captured surface vessels down to add to its shape."}
 		]
 	},
 	{
@@ -78,7 +101,7 @@
 		"obsoleteTech": "Chivalry",
 		"replaces": "Horseman",
 		"uniqueTo": "Seaborn",
-		"upgradesTo": "Carapace Lancer",
+		"upgradesTo": "Nourished Runner",
 		"promotions": ["Nervous Impairment I"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
 		"attackSound": "nonmetalhit",
@@ -87,21 +110,259 @@
 		]
 	},
 	{
-		"name": "Carapace Lancer",
+		"name": "Nethersea Predator",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Metallurgy",
+		"replaces": "Swordsman",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Nourished Predator",
+		"promotions": ["Nervous Impairment I"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "This host stopped resembling anything human generations ago. What remains is pure appetite, wrapped in a shell hard enough to shrug off most blades."}
+		]
+	},
+	{
+		"name": "Nethersea Spewer",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 14,
+		"range": 2,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"replaces": "Catapult",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Nourished Spewer",
+		"promotions": ["Nervous Impairment I"],
+		"uniques": ["Must set up to ranged attack", "[+50]% Strength <vs cities>"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Bloated far past any natural size, it exists only to hold pressure until it doesn't - and whatever it launches eats through stone almost as fast as it eats through flesh."}
+		]
+	},
+	{
+		"name": "Primal Sea Piercer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 12,
+		"range": 2,
+		"cost": 75,
+		"requiredTech": "Trapping",
+		"obsoleteTech": "Chivalry",
+		"replaces": "Composite Bowman",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Nourished Piercer",
+		"promotions": ["Nervous Impairment I"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A long, barbed spine has grown clean through what was once an arm, and it has learned to whip it forward with enough force to punch through boiled leather."}
+		]
+	},
+	{
+		"name": "Nourished Runner",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 18,
+		"strength": 20,
 		"cost": 120,
 		"requiredTech": "Chivalry",
-		"obsoleteTech": "Metallurgy",
+		"obsoleteTech": "Gunpowder",
 		"replaces": "Knight",
 		"uniqueTo": "Seaborn",
-		"upgradesTo": "Cavalry",
+		"upgradesTo": "Basin Sea Reaper",
 		"promotions": ["Nervous Impairment I"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "A larger shell, ridden by nothing at all - the carapace itself has become the predator, charging on legs of bone and calcified muscle that were once something else's armor."}
+			{"text": "Fed on the wreckage of a dozen raids, this carapace has swelled to the size of a warhorse, and moves with just as much murderous confidence."}
+		]
+	},
+	{
+		"name": "Regressed Predator",
+		"unitType": "Spear",
+		"movement": 2,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Gunpowder",
+		"replaces": "Pikeman",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Nethersea Founder",
+		"promotions": ["Nervous Impairment I"],
+		"uniques": ["[+100]% Strength <vs [Mounted] units>"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Something in it has started to unravel rather than grow - limbs fusing wrong, instincts turning feral - but the spike jutting from its forelimb is more lethal than ever."}
+		]
+	},
+	{
+		"name": "Nourished Piercer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 11,
+		"rangedStrength": 18,
+		"range": 2,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Metallurgy",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Nethersea Founder",
+		"promotions": ["Nervous Impairment I"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "The barbed spine has grown into something closer to a siege weapon strapped to a living frame, cranked back by muscle that never seems to tire."}
+		]
+	},
+	{
+		"name": "Nourished Predator",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 24,
+		"cost": 145,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Nethersea Founder",
+		"promotions": ["Nervous Impairment I"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Layers of assimilated hosts have fused into one another, plated over with something dense and dark that turns aside steel edges without slowing down."}
+		]
+	},
+	{
+		"name": "Nourished Spewer",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 18,
+		"range": 2,
+		"cost": 120,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Metallurgy",
+		"replaces": "Trebuchet",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Regressed Spewer",
+		"promotions": ["Nervous Impairment I"],
+		"uniques": ["Must set up to ranged attack", "[+50]% Strength <vs cities>"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "It has learned to brace itself against rock rather than sand, giving whatever it launches enough range to reach over city walls before anyone inside knows it has arrived."}
+		]
+	},
+	{
+		"name": "Nourished Drifter",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 17,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"replaces": "Galleass",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Bone Sea Drifter",
+		"promotions": ["Nervous Impairment I"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Grown larger and bolder now that it no longer needs to hide close to shore, this hull ranges further from home, dragging captured vessels down to add to its shape."}
+		]
+	},
+	{
+		"name": "Nethersea Founder",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 21,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
+		"replaces": "Musketman",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Nourished Founder",
+		"promotions": ["Nervous Impairment I"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "It does not fight so much as anchor - other hosts orient themselves around it, drawn to whatever signal it radiates from somewhere beneath its ribs."}
+		]
+	},
+	{
+		"name": "Basin Sea Reaper",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Military Science",
+		"replaces": "Lancer",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Nourished Reaper",
+		"promotions": ["Nervous Impairment I"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "What was once a runner has grown a single, terrible spine down its spine, angled forward - built to punch through anything else still foolish enough to charge."}
+		]
+	},
+	{
+		"name": "Regressed Spewer",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 24,
+		"range": 2,
+		"cost": 150,
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Ballistics",
+		"replaces": "Cannon",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Nethersea Brandguider",
+		"promotions": ["Nervous Impairment I"],
+		"uniques": ["Must set up to ranged attack", "[+50]% Strength <vs cities>"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Whatever remained human in this host is long gone, replaced by something closer to a pressure vessel with legs, primed to unmake a wall in a single detonation."}
+		]
+	},
+	{
+		"name": "Bone Sea Drifter",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 21,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Industrialization",
+		"replaces": "Privateer",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Nethersea Reefbreaker",
+		"promotions": ["Nervous Impairment I"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Stripped down and skeletal, built purely for speed, it slips between patrol lanes to drag stragglers under before anyone can call for help."}
+		]
+	},
+	{
+		"name": "Skimming Sea Drifter",
+		"unitType": "Ranged Water",
+		"movement": 6,
+		"strength": 15,
+		"rangedStrength": 21,
+		"range": 2,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Steam Power",
+		"replaces": "Frigate",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Nethersea Reefbreaker",
+		"promotions": ["Nervous Impairment I"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "It barely touches the surface, skipping across open water on fins that were never meant to move this fast, loosing pressurized bursts before the wake even settles."}
 		]
 	}
-]
+]]
