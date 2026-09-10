@@ -37,7 +37,7 @@
 	},
 	{
 		"name": "Baleful Broodling",
-		"unitType": "Spear",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 9,
 		"cost": 45,
@@ -185,7 +185,7 @@
 	},
 	{
 		"name": "Regressed Predator",
-		"unitType": "Spear",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 20,
 		"cost": 120,
