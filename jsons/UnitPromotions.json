@@ -2,7 +2,6 @@
 	{
 		"name": "Nervous Impairment I",
 		"unitTypes": ["Sword", "Archery", "Mounted", "Melee Water", "Ranged Water", "Siege", "Gunpowder"],
-		"row": 0,
 		"uniques": [
 			"[+15]% Strength <when attacking>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
