@@ -9,11 +9,10 @@
 		"uniques": [
 			"Enables embarkation for land units",
 			"Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
-			"Normal vision when embarked",
 			"[+1] Sight <for [Embarked] units>",
 			"[+1] Movement <for [Embarked] units>",
-			"[+25]% [Food] <in coastal cities>",
-			"[+15]% [Production] <in coastal cities>",
+			"[+25]% [Food] [in all coastal cities]",
+			"[+15]% [Production] [in all coastal cities]",
 			"[+1 Happiness] from every [Harbor]"
 		],
 		"innerColor": [60, 200, 180],
