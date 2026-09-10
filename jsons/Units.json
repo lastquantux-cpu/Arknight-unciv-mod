@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Broodling Wader",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Metal Casting",
+		"replaces": "Warrior",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Swordsman",
+		"promotions": ["Nervous Impairment I"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A newly assimilated host, still half-human in shape but already listening to a voice from beneath the waves. It fights without fear, because it no longer has anything left to lose."}
+		]
+	},
+	{
+		"name": "Brood Hull",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"obsoleteTech": "Astronomy",
+		"replaces": "Trireme",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Caravel",
+		"promotions": ["Nervous Impairment I"],
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Not built so much as grown - a living hull of coral, chitin, and something that used to be a ship's crew, propelled by dozens of half-formed limbs beneath the waterline."}
+		]
+	}
+]
