@@ -12,8 +12,8 @@
 		"requiredTech": "Theology",
 		"quote": "Every prayer sinks eventually. Down here, we hear all of them.",
 		"uniques": [
-			"[+15]% [Faith] <in coastal cities>",
-			"[+2 Happiness] <in coastal cities>"
+			"[+15]% [Faith] [in all coastal cities]",
+			"[+2 Happiness] [in all coastal cities]"
 		],
 		"civilopediaText": [
 			{"text": "Raised by the Church of the Deep, this cathedral marks a place where surface faith and abyssal hunger meet. Congregants who pray here for long enough rarely stop - not because they choose to keep praying, but because something has started praying back."}
@@ -28,8 +28,8 @@
 		"uniqueTo": "Seaborn",
 		"requiredTech": "Sailing",
 		"uniques": [
-			"[+1 Food] from [Ocean] tiles <in this city>",
-			"[+1 Production] from [Ocean] tiles <in this city>"
+			"[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Production] from [Ocean] tiles [in this city]"
 		],
 		"civilopediaText": [
 			{"text": "A brood-pool built at the tideline, where the Many cultivate both food and future hosts from the same dark water."}
