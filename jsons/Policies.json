@@ -7,7 +7,7 @@
 			"Cultural": 5
 		},
 		"uniques": [
-			"[+2 Happiness] <in coastal cities>"
+			"[+2 Happiness] [in all coastal cities]"
 		],
 		"civilopediaText": [
 			{"text": "A doctrine born from Aegir contact: the surface learns to see the ocean not as a boundary, but as an extension of itself."}
@@ -18,7 +18,7 @@
 				"row": 1,
 				"column": 1,
 				"uniques": [
-					"[+20]% [Culture] <in coastal cities>"
+					"[+20]% [Culture] [in all coastal cities]"
 				]
 			},
 			{
@@ -26,7 +26,7 @@
 				"row": 1,
 				"column": 2,
 				"uniques": [
-					"[+15]% [Faith] <in coastal cities>"
+					"[+15]% [Faith] [in all coastal cities]"
 				]
 			},
 			{
@@ -41,7 +41,7 @@
 			{
 				"name": "Assimilation Complete",
 				"uniques": [
-					"[+25]% [Production] <in coastal cities>"
+					"[+25]% [Production] [in all coastal cities]"
 				]
 			}
 		]
