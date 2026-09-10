@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Nervous Impairment I",
+		"unitTypes": ["Sword", "Archery", "Mounted", "Melee Water", "Ranged Water", "Siege", "Gunpowder"],
+		"row": 0,
+		"uniques": [
+			"[+15]% Strength <when attacking>",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+		],
+		"civilopediaText": [
+			{"text": "Seaborn touch carries a psychic static that unravels the minds of those nearby, sapping the will of enemies who stand too close before a blow even lands."}
+		]
+	},
+	{
+		"name": "Nervous Impairment II",
+		"prerequisites": ["Nervous Impairment I"],
+		"unitTypes": ["Sword", "Archery", "Mounted", "Melee Water", "Ranged Water", "Siege", "Gunpowder"],
+		"uniques": [
+			"[+15]% Strength <when attacking>",
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles"
+		]
+	},
+	{
+		"name": "Nervous Impairment III",
+		"prerequisites": ["Nervous Impairment II"],
+		"unitTypes": ["Sword", "Archery", "Mounted", "Melee Water", "Ranged Water", "Siege", "Gunpowder"],
+		"uniques": [
+			"[+15]% Strength <when attacking>",
+			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles"
+		]
+	}
+]
