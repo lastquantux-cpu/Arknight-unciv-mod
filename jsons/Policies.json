@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Assimilation",
-		"era": "Medieval",
+		"era": "",
 		"priorities": {
 			"Domination": 10,
 			"Cultural": 5
