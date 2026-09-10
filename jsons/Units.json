@@ -33,5 +33,23 @@
 		"civilopediaText": [
 			{"text": "Not built so much as grown - a living hull of coral, chitin, and something that used to be a ship's crew, propelled by dozens of half-formed limbs beneath the waterline."}
 		]
+	},
+	{
+		"name": "Shell Sea Runner",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Chivalry",
+		"replaces": "Horseman",
+		"uniqueTo": "Seaborn",
+		"upgradesTo": "Knight",
+		"promotions": ["Nervous Impairment I"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A hollow, discarded carapace reanimated and driven forward by something that no longer needs it to breathe. It skitters across open ground faster than anything with legs has a right to, striking hard before vanishing back toward the tideline."}
+		]
 	}
 ]
