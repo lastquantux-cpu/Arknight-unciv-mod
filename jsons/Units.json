@@ -370,7 +370,7 @@
 		"uniqueTo": "Seaborn",
 		"upgradesTo": "Nourished Brandguider",
 		"promotions": ["Nervous Impairment I"],
-		"uniques": ["Must set up to ranged attack", "[+50]% Strength <vs cities>", "Limited Visibility"],
+		"uniques": ["Must set up to ranged attack", "[+50]% Strength <vs cities>", "[-1] Sight"],
 		"attackSound": "arrow",
 		"civilopediaText": [{"text": "It does not aim so much as guide - other hosts nearby seem to know exactly where its payload will land, and get out of the way just in time."}]
 	},
@@ -381,7 +381,7 @@
 		"strength": 32,
 		"cost": 210,
 		"requiredTech": "Industrialization",
-		"obsoleteTech": "Refining",
+		"obsoleteTech": "Electricity",
 		"replaces": "Ironclad",
 		"uniqueTo": "Seaborn",
 		"upgradesTo": "Nourished Reefbreaker",
